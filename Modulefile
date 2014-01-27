@@ -1,0 +1,10 @@
+name    'inkblot/riak'
+version '1.0.0'
+source  'git://github.com/inkblot/puppet-riak'
+author  'inkblot'
+license 'Apache 2.0'
+summary 'Riak key-value store'
+description 'A Puppet module for setting up a Riak cluster'
+project_page 'https://github.com/inkblot/puppet-riak'
+
+dependency 'puppetlabs/apt', '>= 1.3.0'
